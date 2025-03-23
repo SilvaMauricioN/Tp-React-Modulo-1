@@ -1,14 +1,14 @@
 import React from "react";
 import Campo from "../Campo/Campo";
-import Boton from "../Boton";
-import CampoPassword from "../CampoPassword";
+import Boton from "../Boton/Boton";
+import CampoPassword from "../CampoPassword/CampoPassword";
 import "./Formulario.css"
 
 
 const Formulario = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-96">
+    <div className="Contenedor">
+      <div className="Formulario">
         <h2 className="text-xl font-bold text-center">Crea una cuenta</h2>
         <p className="text-gray-500 text-center mb-4">Ingresa tus datos para registrarte</p>
         
@@ -24,9 +24,7 @@ const Formulario = () => {
           <CampoPassword texto="Contraseña" placeholder="Password" className="mt-2" />
           <CampoPassword texto="Confirmar Contraseña" placeholder="Confirmar Password" className="mt-2" />
 
-          <Boton texto="Registrar" />
-
-       
+          <Boton texto="Registrar" />       
         </form>
       </div>
     </div>

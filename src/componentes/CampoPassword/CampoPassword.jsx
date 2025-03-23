@@ -1,15 +1,16 @@
 import React from "react";
-import Iconos from "./Iconos/Iconos";
+import Iconos from "../Iconos/Iconos";
+import "../Campo/Campo.css"; 
 
 const CampoPassword = ({ texto,placeholder }) => {
   
 	return (
-	  <div className="flex flex-col space-y-1">
+	  <div className="CampoEntrada">
 		<label className="text-gray-700 font-medium">{texto}</label>
-		<div className="relative">
+		<div className="">
 		  <input
 			type="password"
-      placeholder={placeholder}
+      		placeholder={placeholder}
 			className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
 		  />
 		  <button
