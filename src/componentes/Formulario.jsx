@@ -1,6 +1,7 @@
 import React from "react";
 import Campo from "./Campo";
 import Boton from "./Boton";
+import CampoPassword from "./CampoPassword";
 
 
 const Formulario = () => {
@@ -18,6 +19,9 @@ const Formulario = () => {
 
           <Campo tipo="email" texto="Email" className="mt-2" />
           <Campo tipo="tel" texto="Telefono" className="mt-2" />
+
+          <CampoPassword placeholder="Password" className="mt-2" />
+          <CampoPassword placeholder="Confirmar Password" className="mt-2" />
 
           <Boton texto="Registrar" />
 
