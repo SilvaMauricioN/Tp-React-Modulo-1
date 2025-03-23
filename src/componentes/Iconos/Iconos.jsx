@@ -1,7 +1,7 @@
 import { AiOutlineEye } from "react-icons/ai";
 
 const Iconos = {
-    EYE: AiOutlineEye 
+  EYE: AiOutlineEye 
 }
 
 export default Iconos
