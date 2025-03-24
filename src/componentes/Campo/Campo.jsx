@@ -8,8 +8,8 @@ const Campo = ({ tipo, texto, placeholder }) => {
       <input 
         type={tipo}
         placeholder={placeholder}
-        className="">        
-      </input>
+        className=""        
+      />
     </div>  
   );
 };
