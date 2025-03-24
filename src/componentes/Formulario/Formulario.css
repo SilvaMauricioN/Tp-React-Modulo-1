@@ -29,3 +29,10 @@ p{
   display: flex;
   gap: 10px;
 }
+
+@media (max-width: 1450px) {
+  .GrupoEntrada {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
