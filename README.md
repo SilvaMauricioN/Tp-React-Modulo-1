@@ -1,3 +1,3 @@
 ### VISTA PREVIA
 
-![Vista previa](./assets/preview.png)
+![Vista previa](./src/assets/preview.png)
